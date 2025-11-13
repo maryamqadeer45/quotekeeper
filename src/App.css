@@ -36,3 +36,228 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #540246;
+  box-shadow: 0 4px 12px rgba(167, 75, 75, 0.05);
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #cc9cff;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e86822;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #2575fc;
+}
+
+.btn-danger {
+  padding: 0.4rem 0.8rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-form-card {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-form-card h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-subtext {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.auth-form-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form-card input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.auth-form-card button {
+  padding: 0.8rem;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-form-card button:hover {
+  background: #6a11cb;
+}
+
+
+
+.home-container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.home-heading {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.home-subheading {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.no-quotes {
+  color: #999;
+  font-style: italic;
+}
+
+.quote-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quote-card {
+  background: #fdf6f0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quote-content {
+  max-width: 70%;
+}
+
+.quote-author {
+  font-weight: bold;
+  color: #6a11cb;
+  margin-bottom: 0.3rem;
+}
+
+.quote-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.quote-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2575fc;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+.auth-form-card {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-form-card h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-subtext {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.auth-form-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form-card input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.auth-form-card button {
+  padding: 0.8rem;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-form-card button:hover {
+  background: #6a11cb;
+}
