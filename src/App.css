@@ -261,3 +261,15 @@
 .auth-form-card button:hover {
   background: #6a11cb;
 }
+
+.github-login-btn {
+  margin-top: 1rem;
+  background-color: #24292e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.github-login-btn:hover {
+  background-color: #333;
+}
